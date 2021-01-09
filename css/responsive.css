@@ -24,7 +24,7 @@ File Name: responsive.css
     .full_bg {
         height: 100%;
     }
-    .photog h1 {padding-bottom: 35px;}
+    .photog h1 {padding-bottom: 20px;}
    .site-navbar ul li { padding-right: 44px;}
     .owl-next {right: 39%;}
     .owl-prev {left: 39%;}
@@ -43,8 +43,8 @@ File Name: responsive.css
     
   
     .photog h1 {
-        font-size: 50px;
-        line-height: 53px; padding-bottom: 40px;
+        font-size: 40px;
+        line-height: normal; padding-bottom: 20px;
     }
     
  .about {margin: 0 10px; padding: 80px 20px; margin-top: -90px;}
@@ -94,9 +94,9 @@ File Name: responsive.css
 }
   #banner1 .carousel-control-prev, #banner1 .carousel-control-next {top: 95%;}
     .photog h1 {
-        font-size: 50px;
-        line-height: 53px;
-        padding-bottom: 29px;
+        font-size: 40px;
+        line-height: normal;
+        padding-bottom: 20px;
 padding-top: 42px;
     }
   .about {margin: 0 10px; padding: 80px 20px; margin-top: -90px;}
@@ -207,8 +207,8 @@ padding-top: 42px;
    
 
   .photog h1 {
-    font-size: 44px;
-    line-height: 51px;
+    font-size: 40px;
+    line-height: normal;
 }
   
     .about_img, .coronata_img  {

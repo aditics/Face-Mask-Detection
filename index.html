@@ -14,18 +14,18 @@
    <meta name="description" content="">
    <meta name="author" content="">
    <!-- bootstrap css -->
-   <link rel="stylesheet" href="./Face Mask Detection_files/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
    <!-- style css -->
-   <link rel="stylesheet" href="./Face Mask Detection_files/style.css">
+   <link rel="stylesheet" href="./css/style.css">
    <!-- Responsive-->
-   <link rel="stylesheet" href="./Face Mask Detection_files/responsive.css">
+   <link rel="stylesheet" href="./css/responsive.css">
    <!-- fevicon -->
-   <link rel="icon" href="https://yashlara.github.io/Face-Mask-Detection/images11/fevicon.png" type="image/gif">
+   <link rel="icon" href="https://aditics.github.io/Face-Mask-Detection/images11/fevicon.png" type="image/gif">
    <!-- Scrollbar Custom CSS -->
-   <link rel="stylesheet" href="./Face Mask Detection_files/font-awesome.css">
-   <link rel="stylesheet" href="./Face Mask Detection_files/owl.carousel.min.css">
-   <link rel="stylesheet" href="./Face Mask Detection_files/jquery.fancybox.min.css" media="screen">
-   <link rel="stylesheet" href="./Face Mask Detection_files/baguetteBox.min.css">
+   <link rel="stylesheet" href="./css/font-awesome.css">
+   <link rel="stylesheet" href="./css/owl.carousel.min.css">
+   <link rel="stylesheet" href="./css/jquery.fancybox.min.css" media="screen">
+   <link rel="stylesheet" href="./css/baguetteBox.min.css">
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -35,7 +35,7 @@
 <body class="main-layout">
    <!-- loader  -->
    <div class="loader_bg" style="display: none;">
-      <div class="loader"><img src="./Face Mask Detection_files/loading.gif" alt="#"></div>
+      <div class="loader"><img src="./images/loading.gif" alt="#"></div>
    </div>
    <!-- end loader -->
    <!-- top -->
@@ -77,7 +77,7 @@
                         <div class="photog">
                            <h1>Care early<br>Coronavirus</h1>
                            <a class="read_more" href="javascript:void(0)">Read More</a>
-                           <a class="read_more" href="https://yashlara.github.io/Face-Mask-Detection/about.html">About Us</a>
+                           <a class="read_more" href="https://aditics.github.io/Face-Mask-Detection/about.html">About Us</a>
                         </div>
                      </div>
                   </div>
@@ -87,11 +87,11 @@
       </div>
 
       <!-- controls -->
-      <a class="carousel-control-prev" href="https://yashlara.github.io/Face-Mask-Detection/#banner1" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="https://aditics.github.io/Face-Mask-Detection/#banner1" role="button" data-slide="prev">
          <i class="fa fa-angle-left" aria-hidden="true"></i>
          <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="https://yashlara.github.io/Face-Mask-Detection/#banner1" role="button" data-slide="next">
+      <a class="carousel-control-next" href="https://aditics.github.io/Face-Mask-Detection/#banner1" role="button" data-slide="next">
          <i class="fa fa-angle-right" aria-hidden="true"></i>
          <span class="sr-only">Next</span>
       </a>
@@ -163,7 +163,7 @@
             </div>
             <div class="col-md-5">
                <div class="about_img text_align_center">
-                  <figure><img src="./Face Mask Detection_files/about.jpg" alt="#"></figure>
+                  <figure><img src="./images/about.jpg" alt="#"></figure>
                </div>
             </div>
 
@@ -180,10 +180,10 @@
             <div class="col-md-7">
                <div class="coronata_img text_align_center">
                   <figure>
-                     <img src="./Face Mask Detection_files/1.png" alt="" width="" height=""><br>
+                     <img src="./images/1.png" alt="" width="" height=""><br>
                      <span>Example of unmasked face</span><br><br>
 
-                     <img src="./Face Mask Detection_files/2.png" alt="" width="" height=""><br>
+                     <img src="./images/2.png" alt="" width="" height=""><br>
                      <span>Example of masked face</span></figure>
                </div>
             </div>
@@ -259,7 +259,7 @@
                      images as we reduce our dataset size.
                   </p>
 
-                  <img src="./Face Mask Detection_files/DC.png" alt="" width="" height="">
+                  <img src="./images/DC.png" alt="" width="" height="">
                   <p>Figure 1</p>
                   <p>For our final results we were able to use 10,000 images, 6000 for training, 2000 for validation (if
                      needed), and 2000 for testing. In addition to using our full dataset, we also compiled a secondary
@@ -276,7 +276,7 @@
                      3-dimensional matrix so that they match the training dataset dimensions.
                   </p>
                   <br>
-                  <img src="./Face Mask Detection_files/colmask.png" alt="" width="" height="">
+                  <img src="./images/colmask.png" alt="" width="" height="">
                   <p>Figure 2: Example images from the secondary testing dataset of the colored masked images. Note the
                      following differences: picture quality, angle of face, face to image ratio, mask color, mask
                      patterns, no artificially generated masks. </p>
@@ -305,7 +305,7 @@
 -->
 
                   <br><br>
-                  <img src="./Face Mask Detection_files/FC.png" alt="" width="" height="">
+                  <img src="./images/FC.png" alt="" width="" height="">
                   <p>Figure 3</p>
 
                   <p><b><u>Feature Extraction</u></b><br>
@@ -360,7 +360,7 @@
                      for our classification purposes, we can see there is a good distinction between masked and unmasked
                      data points.
                      <br><br>
-                     <img src="./Face Mask Detection_files/PCA.png" alt="" width="" height="">
+                     <img src="./images/PCA.png" alt="" width="" height="">
                      <br>Figure 4: Although we started out with a feature vector of size 50176, we were able to reduce
                      it to 3 principal features and continue to see distinction as we reduce to 2 and to 1 features
                      (provided the right eigenvalue is chosen).</p>
@@ -374,7 +374,7 @@
                      original PCA reduction. It seems the features extracted directly from the pixel arrays are more
                      separable than the features combinations from the neural net derived features. <br>
 
-                     <img src="./Face Mask Detection_files/PCA_other.png" alt="" width="" height="">
+                     <img src="./images/PCA_other.png" alt="" width="" height="">
                      Figure 5: 3-Dimensional and 2-Dimensional reduction using PCA on features extracted through VGG16,
                      Resnet50, and InceptionV3. The expanded dataset of 6000 training images were used for these
                      graphs. <br><br>
@@ -428,7 +428,7 @@
 
                      <br><br>
 
-                     <img src="./Face Mask Detection_files/dbscan.png" alt="" width="" height="">
+                     <img src="./images/dbscan.png" alt="" width="" height="">
                      Figure 6: Elbow method estimation using Resnet-50 features and PCA features reduced to two
                      dimensions.
                   </p>
@@ -488,15 +488,15 @@
                      <b><u>Supervised Learning</u></b><br><br>
 
                      <b>SVM</b><br>
-                     <img src="./Face Mask Detection_files/SVM1.png" alt="" width="" height="">
+                     <img src="./images/SVM1.png" alt="" width="" height="">
                      Figure 7: Accuracy for SVM<br><br>
 
 
-                     <img src="./Face Mask Detection_files/SVM2.png" alt="" width="" height="">
+                     <img src="./images/SVM2.png" alt="" width="" height="">
                      Figure 8: Precision for SVM<br><br>
 
 
-                     <img src="./Face Mask Detection_files/SVM3.png" alt="" width="" height="">
+                     <img src="./images/SVM3.png" alt="" width="" height="">
                      Figure 9: Recall for SVM<br><br>
 
                      These were the performance metrics generated for SVM. All three feature extractors exhibited
@@ -509,7 +509,7 @@
                      <br><br>
 
                      <u>Cross Validation for SVM</u><br>
-                     <img src="./Face Mask Detection_files/table1.png" alt="" width="" height=""><br><br>
+                     <img src="./images/table1.png" alt="" width="" height=""><br><br>
 
                      <b>Decision Tree</b><br>
                      The image features extracted using Resnet50, InceptionV3 and VGG16 models were run through a
@@ -524,12 +524,12 @@
                      6000 images, but the results did not vary significantly.
                      <br>
 
-                     <img src="./Face Mask Detection_files/DT.png" alt="" width="" height=""><br>
+                     <img src="./images/DT.png" alt="" width="" height=""><br>
                      Figure 10: Performance measure of the Decision Tree model on test data, with varying maximum tree depth. A max_depth&gt;=3 shows improved performance across all features.
                   
 
                      <br><br><u>Cross Validation for Decision Tree Classifier</u><br>
-                     <img src="./Face Mask Detection_files/table 2.png" alt="" width="" height=""><br><br>
+                     <img src="./images/table 2.png" alt="" width="" height=""><br><br>
 
 
 
@@ -546,12 +546,12 @@
                      model did not converge for a value lower than that. Training the model with 6000 images, but the
                      results did not vary significantly did not lead to any significant change in the results.<br><br>
 
-                     <img src="./Face Mask Detection_files/LR.png" alt="" width="60%" height=""> <br>
+                     <img src="./images/LR.png" alt="" width="60%" height=""> <br>
                      Figure 11: Performance measure of the Logistic Regression model on test data, with varying
                      regularization strengths(𝛌). 𝛌&gt;=0.01 shows a continuous increase in the F1 score.
 
                      <br><br>
-                     <img src="./Face Mask Detection_files/table3.png" alt="" width="" height=""><br><br>
+                     <img src="./images/table3.png" alt="" width="" height=""><br><br>
 
 
                   </p>
@@ -573,16 +573,16 @@
 
                      <b>Resnet50:</b><br>
 
-                     <img src="./Face Mask Detection_files/R1.png" alt="" width="50%" height=""> <br>
+                     <img src="./images/R1.png" alt="" width="50%" height=""> <br>
                      Figure 12: Confusion Matrix of K-Means Clustering model with features extracted using
                      Resnet50<br><br>
 
                      <b>VGG-16:</b><br>
 
-                     <img src="./Face Mask Detection_files/V1.png" alt="" width="50%" height=""> <br>
+                     <img src="./images/V1.png" alt="" width="50%" height=""> <br>
                      Figure 13: Confusion Matrix of K-Means Clustering model with features extracted using VGG16<br><br>
                      <b>InceptionV3:</b><br>
-                     <img src="./Face Mask Detection_files/I1.png" alt="" width="50%" height=""> <br>
+                     <img src="./images/I1.png" alt="" width="50%" height=""> <br>
                      Figure 14: Confusion Matrix of K-Means Clustering model with features extracted using InceptionV3
 
                      <br>
@@ -604,24 +604,24 @@
                      <br><br>
 
 
-                     <img src="./Face Mask Detection_files/DT1.png" alt="" width="" height=""> <br>
+                     <img src="./images/DT1.png" alt="" width="" height=""> <br>
                      Figure 15: DBScan results using the recommended eps value from the elbow method and a typical d+1
                      minpts value. Only one cluster detected for both the masked and unmasked images instead of two
                      clusters.<br><br><br>
 
-                     <img src="./Face Mask Detection_files/DT2.png" alt="" width="" height=""> <br>
+                     <img src="./images/DT2.png" alt="" width="" height=""> <br>
                      Figure 16: DBScan results with reduced minpts value. Two clusters were detected, however both
                      clusters had an even mix of masked and unmasked images, meaning DBscan did not cluster according to
                      the masked and unmasked images.
                      <br><br><br>
 
-                     <img src="./Face Mask Detection_files/DT3.png" alt="" width="" height=""> <br>
+                     <img src="./images/DT3.png" alt="" width="" height=""> <br>
                      Figure 17: DBScan results with reduced minpts value and an increased eps value. Two clusters were
                      detected, however both clusters had an even mix of masked and unmasked images, meaning DBscan did
                      not cluster according to the masked and unmasked images.
                      <br><br><br>
 
-                     <img src="./Face Mask Detection_files/DT4.png" alt="" width="" height=""> <br>
+                     <img src="./images/DT4.png" alt="" width="" height=""> <br>
                      Figure 18: DBScan results on the test dataset using the hyperparameter that gave us the best
                      training accuracy. This attempt detected only one cluster instead of the two necessary
                      clusters.<br><br>
@@ -631,7 +631,7 @@
                      testing dataset along with their accuracy, precision, and recall rate. The models used for testing
                      were the original models trained with the 4000 training images.<br>
 
-                     <img src="./Face Mask Detection_files/table 4.png" alt="" width="" height=""> <br>
+                     <img src="./images/table 4.png" alt="" width="" height=""> <br>
 
                   </p>
 
@@ -741,7 +741,7 @@
                      data. However, we did attempt to classify the colored images using PCA extracted features, so we
                      are able to visualize the PCA extracted features and gain more understanding.<br><br>
 
-                     <img src="./Face Mask Detection_files/disc.png" alt="" width="" height=""><br>
+                     <img src="./images/disc.png" alt="" width="" height=""><br>
 
                      Figure 19: The top image is a 3D visualization of the training data set. The green points are the masked
                      images and the blue points are the unmasked images. The colored mask dataset is shown on the bottom
@@ -904,11 +904,11 @@
 
 
    <!-- Javascript files-->
-   <script src="./Face Mask Detection_files/jquery.min.js.download"></script>
-   <script src="./Face Mask Detection_files/bootstrap.bundle.min.js.download"></script>
-   <script src="./Face Mask Detection_files/baguetteBox.min.js.download"></script>
-   <script src="./Face Mask Detection_files/owl.carousel.min.js.download"></script>
-   <script src="./Face Mask Detection_files/custom.js.download"></script>
+   <script src="./js/jquery.min.js.download"></script>
+   <script src="./js/bootstrap.bundle.min.js.download"></script>
+   <script src="./js/baguetteBox.min.js.download"></script>
+   <script src="./js/owl.carousel.min.js.download"></script>
+   <script src="./js/custom.js.download"></script>
 
 
 </body></html>

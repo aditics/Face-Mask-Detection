@@ -47,6 +47,12 @@ File Name: responsive.css
         line-height: 53px; padding-bottom: 40px;
     }
    
+   .centered {
+  position: absolute;
+  top: 30%;
+  right: 50%;  
+}
+   
     
  .about {margin: 0 10px; padding: 80px 20px; margin-top: -90px;}
 

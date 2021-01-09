@@ -50,6 +50,7 @@ File Name: responsive.css
    .centered {
   position: absolute;
   top: 30%;
+  left: 30%;
   right: 50%;  
 }
    
